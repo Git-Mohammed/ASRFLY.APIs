@@ -19,7 +19,7 @@ namespace ASRFLY.Infrastructure.EntityFrameworkCore.Contexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string con = @"Server=.;Database=ASRFLYDb;Trusted_Connection=True;";
+            string con = @"Server=.; Database=ASRFLYDb; Trusted_Connection=True; TrustServerCertificate=True";
             optionsBuilder.UseSqlServer(con);
         }
     }

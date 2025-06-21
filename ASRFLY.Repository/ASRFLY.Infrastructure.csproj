@@ -21,8 +21,6 @@
   <ItemGroup>
     <Folder Include="DbInitializer\" />
     <Folder Include="EntityFrameworkCore\Interceptors\" />
-    <Folder Include="UnitOfWork\" />
-    <Folder Include="Repository\" />
   </ItemGroup>
 
   <ItemGroup>

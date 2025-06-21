@@ -1,6 +1,0 @@
-@ASRFLY.APIs_HostAddress = http://localhost:5129
-
-GET {{ASRFLY.APIs_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
