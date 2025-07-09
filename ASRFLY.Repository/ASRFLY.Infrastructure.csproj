@@ -19,8 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DbInitializer\" />
-    <Folder Include="EntityFrameworkCore\Interceptors\" />
+    <Folder Include="Persistence\Interceptors\" />
   </ItemGroup>
 
   <ItemGroup>

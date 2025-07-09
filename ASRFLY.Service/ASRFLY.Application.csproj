@@ -10,4 +10,8 @@
     <ProjectReference Include="..\ASRFLY.Domain\ASRFLY.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\Common\" />
+  </ItemGroup>
+
 </Project>
