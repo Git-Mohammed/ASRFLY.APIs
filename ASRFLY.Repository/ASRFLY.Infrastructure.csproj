@@ -19,12 +19,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DbInitializer\" />
-    <Folder Include="EntityFrameworkCore\Configurations\" />
-    <Folder Include="EntityFrameworkCore\Contexts\" />
-    <Folder Include="EntityFrameworkCore\Interceptors\" />
-    <Folder Include="UnitOfWork\" />
-    <Folder Include="Repository\" />
+    <Folder Include="Persistence\Interceptors\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ASRFLY.Domain\ASRFLY.Domain.csproj" />
+    <ProjectReference Include="..\ASRFLY.Service\ASRFLY.Application.csproj" />
   </ItemGroup>
 
 </Project>
